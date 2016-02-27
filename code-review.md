@@ -6,3 +6,17 @@
 4. Praise good work.
 5. Everybody can and should review everybody’s code.
 6. Stay humble.
+
+
+## Comment tags
+
+Sometimes I prefix my code review comments with a `[tag]` to indicate the nature
+of the comment. The most common tags are:
+
+* `[nit]`: There is something small to be changed, but it's so trivial that
+  merging this patch without change it is okay.
+* `[minor]`: I know I'm asking for a trivial change, but it really needs to be
+  done before the patch can be merged.
+
+For example, pointing out a typo in a comment is a `[nit]`, whereas requesting
+more information to an error message might be a `[minor]`.
