@@ -20,3 +20,9 @@ of the comment. The most common tags are:
 
 For example, pointing out a typo in a comment is a `[nit]`, whereas requesting
 more information to an error message might be a `[minor]`.
+
+
+## Misc.
+
+If the code disagrees with its comments, that's a bug and the patch can't be
+merged. One way to fix this is to remove the comments.
