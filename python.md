@@ -27,3 +27,14 @@ Always use [flake8][flake8], but feel free to ignore the McCabe checks.
 [pep8]: https://www.python.org/dev/peps/pep-0008/
 [flake8]: https://pypi.python.org/pypi/flake8
 [autopep8]: https://pypi.python.org/pypi/autopep8
+
+
+## Default library choices
+
+Unless there's a good reason to use something else, I use these libraries:
+
+* Command-line parsing: [argparse](https://docs.python.org/3/library/argparse.html)
+* HTTP client: [Requests](http://docs.python-requests.org/)
+* Generative testing: [Hypothesis](http://hypothesis.readthedocs.org)
+* Template engine: [Jinja2](http://jinja.pocoo.org/)
+* Test runner: [pytest](http://pytest.org/)
