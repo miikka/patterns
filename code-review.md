@@ -8,6 +8,16 @@
 6. Stay humble.
 
 
+## Why review?
+
+* To find bugs and to improve the design.
+* To cultivate a common style.
+* To spread knowledge about the code.
+* To educate both the author and the reviewer.
+
+Does it work? My gut feeling is that quite well for spreading knowledge and not
+so well for finding bugs. I haven't searched the literature.
+
 ## Comment tags
 
 Sometimes I prefix my code review comments with a `[tag]` to indicate the nature
