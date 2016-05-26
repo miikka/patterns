@@ -15,3 +15,5 @@ For open source projects, it should also tell you:
 * how to report a bug
 * how to contribute
 * what's the license
+
+See also: [README checklist](https://github.com/ddbeck/readme-checklist/blob/master/checklist.md).
