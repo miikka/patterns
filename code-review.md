@@ -36,3 +36,17 @@ more information to an error message might be a `[minor]`.
 
 If the code disagrees with its comments, that's a bug and the patch can't be
 merged. One way to fix this is to remove the comments.
+
+
+## Code review checklist
+
+This is a partial list of things I aim to check when reviewing a patch, beyond
+the obvious "is the code correct?".
+
+* Code:
+    * Are the comments around the changed code still up-to-date?
+* Documentation (esp. for open-source projects):
+    * Are the existing docstrings still up-to-date?
+    * Does README, the user guide, the examples or some other documentation need
+      an update after this patch?
+    * Does CHANGELOG need an update?
