@@ -6,7 +6,7 @@ It's like a very general style guide.
 
 ## License
 
-Copyright 2015-2016 Miikka Koskinen.
+Copyright 2015-2017 Miikka Koskinen.
 
 *Patterns for software work* is made available under a [Creative Commons
 Attribution-ShareAlike 4.0 International license][cc-by-sa].

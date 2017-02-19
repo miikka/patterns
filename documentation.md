@@ -17,3 +17,8 @@ For open source projects, it should also tell you:
 * what's the license
 
 See also: [README checklist](https://github.com/ddbeck/readme-checklist/blob/master/checklist.md).
+
+
+## CHANGELOG
+
+Always keep a changelog. Highlight the breaking changes.
