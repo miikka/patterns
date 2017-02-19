@@ -1,5 +1,17 @@
 # Documentation
 
+
+## API reference
+
+When you're using a language that has established support for docstrings,
+always write them for the public functions (methods, classes, ...). The
+docstring should contain a description of what the function does and what the
+arguments mean. It's fine to keep it brief.
+
+Do it always so you don't have to guess which functions' meanings are obvious.
+It's fine to write docstrings for private functions, too.
+
+
 ## README
 
 README should tell you at least the following:
@@ -21,4 +33,5 @@ See also: [README checklist](https://github.com/ddbeck/readme-checklist/blob/mas
 
 ## CHANGELOG
 
-Always keep a changelog. Highlight the breaking changes.
+Always keep a human-readable changelog. Highlight the breaking changes. If you
+need a template, see [Keep a CHANGELOG](http://keepachangelog.com/en/).
