@@ -1,7 +1,8 @@
 # Python
 
-Default to Python 3.
+## Project management
 
+Use [uv](https://github.com/astral-sh/uv) unless you need a full-powered build system.
 
 ## Logging
 
@@ -21,20 +22,16 @@ In the main program, configure logging like this:
 
 ## Style and linting
 
-Follow [PEP8][pep8]. Use [autopep8][autopep8] to automatically format it.
-Always use [flake8][flake8], but feel free to ignore the McCabe checks.
+Follow [PEP8][pep8]. Use [ruff] to both format and lint.
 
 [pep8]: https://www.python.org/dev/peps/pep-0008/
-[flake8]: https://pypi.python.org/pypi/flake8
-[autopep8]: https://pypi.python.org/pypi/autopep8
+[ruff]: https://github.com/astral-sh/ruff
 
+## Default library and tool choices
 
-## Default library choices
-
-Unless there's a good reason to use something else, I use these libraries:
+Unless there's a good reason to use something else, I use these:
 
 * Command-line parsing: [argparse](https://docs.python.org/3/library/argparse.html)
-* HTTP client: [Requests](http://docs.python-requests.org/)
-* Generative testing: [Hypothesis](http://hypothesis.readthedocs.org)
-* Template engine: [Jinja2](http://jinja.pocoo.org/)
+* HTTP client: [httpx2](https://github.com/pydantic/httpx2)
+* Property-based testing: [Hypothesis](http://hypothesis.readthedocs.org)
 * Test runner: [pytest](http://pytest.org/)
